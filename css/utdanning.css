@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+.link1, .link2{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.link3{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.links{
+    list-style: none;
+}
+
+.links, .link1, .link3 {
+    display: inline-block;
+    padding: 0px 43px;
+    }
+
+
+
+.links, .link1, .link2:hover{
+    color: gray;
+}
+
+.overskrift{
+    text-align: center;
+}
+
+.innhold {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.bottom-container{
+    background-color: black;
+    margin: -10px;
+    padding: 20px 0 25px;
+}
+
+#knapp{
+    margin:43%;
+}
+
+#knapp {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  #knapp:hover {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #8c8c8c);
+    background-image: -moz-linear-gradient(top, #ffffff, #8c8c8c);
+    background-image: -ms-linear-gradient(top, #ffffff, #8c8c8c);
+    background-image: -o-linear-gradient(top, #ffffff, #8c8c8c);
+    background-image: linear-gradient(to bottom, #ffffff, #8c8c8c);
+    text-decoration: none;
+  }
+
+  .kontaktmelding{
+    width: 40%;
+    margin: 10px 460px 30px;
+    color: white;
+}
+
+.overskrift2{
+    text-align: center;
+    color: white;
+}
+
+#ambisjoner{
+    margin:45px ;
+    text-align: center;
+}
